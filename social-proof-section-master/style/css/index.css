@@ -140,3 +140,47 @@ span{
     color: white;
     display: inline-block;
 }
+
+
+@media screen and (max-width : 950px){
+    body{
+        overflow-y: scroll;
+    }
+    .card{
+        display: block;
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+        width: 300px;
+        margin: 0 auto 20px;
+    }
+    .card-1{
+        position: relative;
+    }
+    .card-2{
+        position: relative;
+    }
+    .card-3{
+        position: relative;
+    }
+    .main{
+        position: relative;
+        margin: auto;
+    }
+    .plan{
+        position: relative;
+        display: inline-block;
+        left: 20em;
+        
+    }
+    .main-2{
+        top: -15em;
+    }
+    .main-3{
+        top: -14em;
+    }
+    .main-4{
+        top: -13em;
+    }
+}
